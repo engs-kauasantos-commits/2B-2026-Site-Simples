@@ -29,3 +29,55 @@ a{
 a:hover{
     background-color: rgb(29, 29, 101);
 }
+
+section{
+    background-color: rgb(32, 110, 177);
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-card{
+    width: 90%;
+    margin: 5px auto;
+    border: 1px solid rgb(32, 110, 177);
+    border-radius: 8px;
+}
+
+article{
+    width: 200px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+.titulo-card{
+    margin: 5px auto;
+    font-size: 24px;
+}
+
+.texto-card{
+    margin: 0 5px;
+}
+
+.botao-card{
+    background-color: rgb(29, 29, 101);
+    padding: 5px;
+    width: 80%;
+    margin: 5px auto;
+    border-radius: 24px;
+    text-align: center;
+    border: 2px solid rgb(29, 29, 101);
+}
+
+.botao-card:hover{
+    background-color: rgb(32, 110, 177);
+    border: 2px solid rgb(29, 29, 101);
+}
