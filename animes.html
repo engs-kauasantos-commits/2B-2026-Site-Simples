@@ -1,22 +1,28 @@
-  <!DOCTYPE html>
+```html
+<!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
-<meta charset="UTF-8">
-<title>Animes - AnimesRevolução</title>
-<link rel="stylesheet" href="estilo.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animes - AnimeRevolução</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 
-<body>
+<body id="pagina">
 
     <header>
         <h1>AnimeRevolução</h1>
-          
+
         <nav>
-            <a href="index.html">início</a>
+            <a href="index.html">Início</a>
             <a href="animes.html">Animes</a>
             <a href="sobre.html">Sobre</a>
         </nav>
+
+        <button id="botaoContraste" onclick="alternarContraste()">
+            Alterar contraste
+        </button>
     </header>
 
     <main>
@@ -32,17 +38,17 @@
             <article class="anime">
                 <img src="imagens/5191373ef55f02d2916a58cda6be408c65a407802d78204f28bfb69242400bc9.jpg" alt="Jujutsu Kaisen">
                 <h3>Jujutsu Kaisen</h3>
-                <p>Um jovem que se torna feiticeiro do nada depois de comer um dedo.</p>
+                <p>Um jovem que se torna feiticeiro depois de comer um dedo amaldiçoado.</p>
             </article>
 
-
         </section>
-        </main>
+    </main>
 
-<footer>
-    <p>AnimeRevolução - 2026</p>
-</footer>
+    <footer>
+        <p>AnimeRevolução - 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
 
 </body>
-
 </html>

@@ -1,8 +1,9 @@
+```css
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #08ebdf25;
-    color: #fbbc04;
+    background-color: #f0f8f8;
+    color: #222;
 }
 
 header {
@@ -13,12 +14,16 @@ header {
 }
 
 nav a {
-    color: #246cca;
+    color: #123b70;
     text-decoration: none;
     margin: 10px;
     font-weight: bold;
     font-size: 18px;
-    }
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
 
 main {
     max-width: 900px;
@@ -27,11 +32,12 @@ main {
 }
 
 section {
-    background-color: white ;
+    background-color: white;
+    color: #222;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
-    }
+}
 
 article {
     border: 1px solid #ddd;
@@ -40,33 +46,79 @@ article {
     border-radius: 8px;
     text-align: center;
     box-shadow: 0 2px 6px #ddd;
-    }
+}
 
 footer {
     background-color: #1ec6cc;
-    color: white;
+    color: #222;
     text-align: center;
     padding: 15px;
 }
 
 img {
+    max-width: 100%;
     width: 250px;
     height: 350px;
     object-fit: cover;
 }
 
-h2{
-    color: #18bee7;
-}
-
-h1{
+h1 {
     font-size: 32px;
 }
 
-#lista-animes{
+h2 {
+    color: #087c91;
+}
+
+#lista-animes {
     padding-top: 25px;
 }
 
 .anime {
     background-color: white;
+}
+
+/* Botão de contraste */
+#botaoContraste {
+    padding: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Contraste alto */
+.alto-contraste {
+    background-color: black;
+    color: white;
+}
+
+.alto-contraste header,
+.alto-contraste footer {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.alto-contraste section,
+.alto-contraste article {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.alto-contraste h2,
+.alto-contraste nav a {
+    color: yellow;
+}
+
+@media (max-width: 600px) {
+    main {
+        margin: 10px auto;
+        padding: 10px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
 }

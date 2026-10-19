@@ -1,13 +1,15 @@
+```html
 <!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AnimeRevolução</title>
-     <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="estilo.css">
 </head>
 
-<body>
+<body id="pagina">
 
     <header>
         <h1>AnimeRevolução</h1>
@@ -17,27 +19,25 @@
             <a href="animes.html">Animes</a>
             <a href="sobre.html">Sobre</a>
         </nav>
-        </header>
 
-        <main>
-            <section>
-                <h2>Bem-vindo ao AnimeRevolução!</h2>
-                <p>Um site simples para conhecer alguns animes</p>
-                 <p>Confira nossos animes e descubra um mundo de diversas histórias para assistir. </p>
-            </section>
-        </main>
+        <button id="botaoContraste" onclick="alternarContraste()">
+            Alterar contraste
+        </button>
+    </header>
 
-        <footer>
-            <p>AnimeRevolução - 2026</p>
-            </footer>
+    <main>
+        <section class="conteudo">
+            <h2>Bem-vindo ao AnimeRevolução!</h2>
+            <p>Um site simples para conhecer alguns animes.</p>
+            <p>Confira nossos animes e descubra um mundo de diversas histórias para assistir.</p>
+        </section>
+    </main>
 
-            </body>
+    <footer>
+        <p>AnimeRevolução - 2026</p>
+    </footer>
 
+    <script src="script.js"></script>
+
+</body>
 </html>
-            
-
-
-
-
-
-
